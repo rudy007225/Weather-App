@@ -5,7 +5,7 @@ import json
 import requests
 
 speak = wincom.Dispatch("SAPI.SpVoice")
-welcomeText = "WELCOME TO WHETHER APP VERSION 1.0 DEVELOPED by Rudy"
+welcomeText = "WELCOME TO WEATHER APP VERSION 1.0 DEVELOPED by Rudy"
 print(f"--------------{welcomeText}-----------")
 speak.Speak(welcomeText)
 
